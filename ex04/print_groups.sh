@@ -1,6 +1,3 @@
 #!/bin/sh
-#groups $FT_USER="god,root,admin,master,nours,bocal" | sed 's/ /,/g' | tr -d '\n'
+groups $FT_USER | tr ' ' ','
 
-echo $UID
-echo $TZ
-echo $PATH
