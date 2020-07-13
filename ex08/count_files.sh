@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ls -l | wc -l | cat -e
+ls -la | wc -l | cat -e
